@@ -6980,14 +6980,14 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <text x="-3.048" y="-3.048" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <wire x1="-2.1844" y1="-2.0574" x2="-2.8702" y2="-2.0574" width="0.2032" layer="22"/>
 </package>
-<package name="1X07">
-<description>&lt;h3&gt;Plated Through Hole -7 Pin&lt;/h3&gt;
+<package name="1X09">
+<description>&lt;h3&gt;Plated Through Hole -9 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:9&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_09&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
@@ -7032,7 +7032,19 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0.635" x2="16.51" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="17.145" y1="1.27" x2="18.415" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="18.415" y1="1.27" x2="19.05" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-0.635" x2="18.415" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="17.145" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="-0.635" x2="17.145" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="18.415" y1="-1.27" x2="17.145" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="19.685" y1="1.27" x2="20.955" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="20.955" y1="1.27" x2="21.59" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="-0.635" x2="20.955" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="19.685" y1="1.27" x2="19.05" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-0.635" x2="19.685" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="20.955" y1="-1.27" x2="19.685" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="0.635" x2="21.59" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -7040,6 +7052,8 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="20.32" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
@@ -7047,18 +7061,20 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X07_LOCK">
-<description>&lt;h3&gt;Plated Through Hole -7 Pin Locking Footprint&lt;/h3&gt;
-Holes are offset 0.005" from center, locking pins in place during soldering.
+<package name="1X09_LOCK">
+<description>&lt;h3&gt;Plated Through Hole -9 Pin Locking Footprint&lt;/h3&gt;
+Holes are offset 0.005" to lock pins in place during soldering. 
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:9&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_09&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
@@ -7103,7 +7119,19 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0.635" x2="16.51" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="17.145" y1="1.27" x2="18.415" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="18.415" y1="1.27" x2="19.05" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-0.635" x2="18.415" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="17.145" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="-0.635" x2="17.145" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="18.415" y1="-1.27" x2="17.145" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="19.685" y1="1.27" x2="20.955" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="20.955" y1="1.27" x2="21.59" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="-0.635" x2="20.955" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="19.685" y1="1.27" x2="19.05" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-0.635" x2="19.685" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="20.955" y1="-1.27" x2="19.685" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="0.635" x2="21.59" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="2.54" y="-0.127" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="5.08" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -7111,6 +7139,8 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <pad name="5" x="10.16" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="6" x="12.7" y="-0.127" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="7" x="15.24" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="-0.127" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="20.32" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
@@ -7118,18 +7148,20 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X07_LOCK_LONGPADS">
-<description>&lt;h3&gt;Plated Through Hole -7 Pin Locking Footprint w/ Long Pads&lt;/h3&gt;
-Holes are offset 0.005" from center, locking pins in place during soldering.
+<package name="1X09_LOCK_LONGPADS">
+<description>&lt;h3&gt;Plated Through Hole -9 Pin Locking Footprint w/ Long Pads&lt;/h3&gt;
+Holes are offset 0.005" to lock pins in place during soldering. 
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:9&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_09&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="1.524" y1="0" x2="1.016" y2="0" width="0.2032" layer="21"/>
 <wire x1="4.064" y1="0" x2="3.556" y2="0" width="0.2032" layer="21"/>
@@ -7141,12 +7173,14 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <wire x1="-1.27" y1="0.9906" x2="-0.9906" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-0.9906" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-0.9906" x2="-0.9906" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0" x2="16.256" y2="0" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0" x2="16.51" y2="-0.9906" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="-0.9906" x2="16.2306" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0" x2="16.51" y2="0.9906" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0.9906" x2="16.2306" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="14.224" y1="0" x2="13.716" y2="0" width="0.2032" layer="21"/>
+<wire x1="16.764" y1="0" x2="16.256" y2="0" width="0.2032" layer="21"/>
+<wire x1="19.304" y1="0" x2="18.796" y2="0" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="0" x2="21.59" y2="-0.9906" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="-0.9906" x2="21.3106" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="0" x2="21.59" y2="0.9906" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="0.9906" x2="21.3106" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="21.59" y1="0" x2="21.336" y2="0" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0.127" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="-0.127" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="5.08" y="0.127" drill="1.016" shape="long" rot="R90"/>
@@ -7154,6 +7188,8 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <pad name="5" x="10.16" y="0.127" drill="1.016" shape="long" rot="R90"/>
 <pad name="6" x="12.7" y="-0.127" drill="1.016" shape="long" rot="R90"/>
 <pad name="7" x="15.24" y="0.127" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="17.78" y="-0.127" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="20.32" y="0.127" drill="1.016" shape="long" rot="R90"/>
 <rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
 <rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
 <rectangle x1="4.7879" y1="-0.2921" x2="5.3721" y2="0.2921" layer="51"/>
@@ -7161,27 +7197,31 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <rectangle x1="9.8679" y1="-0.2921" x2="10.4521" y2="0.2921" layer="51"/>
 <rectangle x1="12.4079" y1="-0.2921" x2="12.9921" y2="0.2921" layer="51"/>
 <rectangle x1="14.9479" y1="-0.2921" x2="15.5321" y2="0.2921" layer="51"/>
-<text x="-1.143" y="1.905" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.143" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="17.4879" y1="-0.2921" x2="18.0721" y2="0.2921" layer="51"/>
+<rectangle x1="20.0279" y1="-0.2921" x2="20.6121" y2="0.2921" layer="51"/>
+<text x="-0.762" y="1.905" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-0.889" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X07_LONGPADS">
-<description>&lt;h3&gt;Plated Through Hole -7 Pin  Long Pads&lt;/h3&gt;
+<package name="1X09_LONGPADS">
+<description>&lt;h3&gt;Plated Through Hole -9 Pin Long Pads&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:9&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_09&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="0.635" x2="16.51" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" shape="long" rot="R90"/>
+<wire x1="21.59" y1="0.635" x2="21.59" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="9" x="20.32" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
@@ -7189,49 +7229,19 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.143" y="2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.143" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
+<text x="-1.016" y="2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.016" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X07_HOLES_ONLY">
-<description>&lt;h3&gt; 7 Pin Holes&lt;/h3&gt;
-No plating, no silk outline.
+<package name="1X09_NO_SILK">
+<description>&lt;h3&gt;Plated Through Hole -9 Pin No Silk&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:9&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="2.54" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="5.08" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="7.62" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="10.16" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="12.7" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="15.24" y="0" radius="0.635" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<hole x="0" y="0" drill="1.4732"/>
-<hole x="2.54" y="0" drill="1.4732"/>
-<hole x="5.08" y="0" drill="1.4732"/>
-<hole x="7.62" y="0" drill="1.4732"/>
-<hole x="10.16" y="0" drill="1.4732"/>
-<hole x="12.7" y="0" drill="1.4732"/>
-<hole x="15.24" y="0" drill="1.4732"/>
-</package>
-<package name="1X07_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole -7 Pin  No Silk&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_09&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -7240,6 +7250,8 @@ No plating, no silk outline.
 <pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="20.32" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
@@ -7247,6 +7259,8 @@ No plating, no silk outline.
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
@@ -7285,28 +7299,32 @@ No plating, no silk outline.
 <pin name="5" x="-7.62" y="-2.54" visible="pad" direction="pas" function="dot"/>
 <pin name="6" x="10.16" y="-2.54" visible="pad" direction="pas" function="dot" rot="R180"/>
 </symbol>
-<symbol name="CONN_07">
-<description>&lt;h3&gt; 7 Pin Connection&lt;/h3&gt;</description>
-<wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="1.27" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="7.62" x2="0" y2="7.62" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="10.16" x2="0" y2="10.16" width="0.6096" layer="94"/>
-<text x="-5.08" y="-9.906" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="-5.08" y="13.208" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="1" x="5.08" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="7" x="5.08" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<symbol name="CONN_09">
+<description>&lt;h3&gt; 9 Pin Connection&lt;/h3&gt;</description>
+<wire x1="6.35" y1="-12.7" x2="0" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="-12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="0" y1="12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="5.08" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="10.16" x2="5.08" y2="10.16" width="0.6096" layer="94"/>
+<text x="0" y="-14.986" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="13.208" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7532,7 +7550,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_07" prefix="J" uservalue="yes">
+<deviceset name="CONN_09" prefix="J" uservalue="yes">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -7567,10 +7585,10 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 NOTES ON THE VARIANTS LOCK and LOCK_LONGPADS...
 This footprint was designed to help hold the alignment of a through-hole component (i.e.  6-pin header) while soldering it into place. You may notice that each hole has been shifted either up or down by 0.005 of an inch from it's more standard position (which is a perfectly straight line).  This slight alteration caused the pins (the squares in the middle) to touch the edges of the holes.  Because they are alternating, it causes a "brace" to hold the component in place.  0.005 has proven to be the perfect amount of "off-center" position when using our standard breakaway headers. Although looks a little odd when you look at the bare footprint, once you have a header in there, the alteration is very hard to notice.  Also,if you push a header all the way into place, it is covered up entirely on the bottom side.</description>
 <gates>
-<gate name="G$1" symbol="CONN_07" x="-2.54" y="0"/>
+<gate name="G$1" symbol="CONN_09" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X07">
+<device name="" package="1X09">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7579,12 +7597,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="LOCK" package="1X07_LOCK">
+<device name="LOCK" package="1X09_LOCK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7593,12 +7613,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="LOCK_LONGPADS" package="1X07_LOCK_LONGPADS">
+<device name="LOCK-LONGPADS" package="1X09_LOCK_LONGPADS">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7607,12 +7629,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="LONGPADS" package="1X07_LONGPADS">
+<device name="LONGPADS" package="1X09_LONGPADS">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7621,12 +7645,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="POGOPINS_HOLES_ONLY" package="1X07_HOLES_ONLY">
+<device name="NO_SILK" package="1X09_NO_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7635,20 +7661,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NO_SILK" package="1X07_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8097,8 +8111,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_09" device="NO_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -8173,11 +8187,8 @@ Indicator</text>
 <instance part="R6" gate="G$1" x="205.74" y="71.12" rot="R90"/>
 <instance part="JP1" gate="G$1" x="243.84" y="30.48"/>
 <instance part="JP3" gate="G$1" x="243.84" y="27.94"/>
-<instance part="J9" gate="G$1" x="20.32" y="15.24" smashed="yes">
-<attribute name="VALUE" x="15.24" y="5.334" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="15.24" y="28.448" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J5" gate="G$1" x="58.42" y="15.24"/>
+<instance part="J7" gate="G$1" x="15.24" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -8334,7 +8345,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <label x="27.94" y="17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="4"/>
+<pinref part="J7" gate="G$1" pin="5"/>
+<junction x="25.4" y="17.78"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="(PCINT3/T0/ADC3)PA3"/>
@@ -8346,7 +8358,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 <label x="27.94" y="15.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="3"/>
+<pinref part="J7" gate="G$1" pin="4"/>
+<junction x="25.4" y="15.24"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="(PCINT2/AIN1/ADC2)PA2"/>
@@ -8358,7 +8371,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
 <label x="27.94" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="2"/>
+<pinref part="J7" gate="G$1" pin="3"/>
+<junction x="25.4" y="12.7"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="(PCINT1/AIN0/ADC1)PA1"/>
@@ -8370,7 +8384,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <label x="27.94" y="10.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<junction x="25.4" y="10.16"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="(PCINT0/AREF/ADC0)PA0"/>
@@ -8415,7 +8430,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <label x="27.94" y="22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="6"/>
+<pinref part="J7" gate="G$1" pin="7"/>
+<junction x="25.4" y="22.86"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
@@ -8432,7 +8448,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="27.94" y="25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="7"/>
+<pinref part="J7" gate="G$1" pin="8"/>
+<junction x="25.4" y="25.4"/>
 </segment>
 </net>
 <net name="5" class="0">
@@ -8444,7 +8461,8 @@ Indicator</text>
 <segment>
 <wire x1="25.4" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="27.94" y="20.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="5"/>
+<pinref part="J7" gate="G$1" pin="6"/>
+<junction x="25.4" y="20.32"/>
 </segment>
 </net>
 <net name="SCL" class="0">

@@ -66,6 +66,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -287,30 +289,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="SparkX">
 <packages>
-<package name="1X04_1MM_RA">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="1X04_NO_SILK">
 <description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -930,6 +908,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X04_1MM_RA">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-IC-Microcontroller">
@@ -1210,7 +1212,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <elements>
 <element name="JP2" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="30.861" y="0.889"/>
 <element name="JP6" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="0.762" y="24.638"/>
-<element name="J2" library="SparkX" package="1X04_1MM_RA" value="SMD" x="5.08" y="12.7" rot="R270"/>
+<element name="J2" library="SparkFun-Connectors" package="1X04_1MM_RA" value="" x="5.08" y="12.7" rot="R270">
+<attribute name="PROD_ID" value="CONN-13694" x="5.08" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="" x="5.08" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="J3" library="SparkX" package="1X04_NO_SILK" value="PTH" x="10.16" y="1.27" smashed="yes">
 <attribute name="VALUE" x="8.89" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
@@ -1219,7 +1224,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="7.62" y="6.35" rot="R180">
 <attribute name="PROD_ID" value="CAP-00810" x="7.62" y="6.35" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="J4" library="SparkX" package="1X04_1MM_RA" value="SMD" x="26.67" y="12.7" rot="R90"/>
+<element name="J4" library="SparkFun-Connectors" package="1X04_1MM_RA" value="" x="26.67" y="12.7" rot="R90">
+<attribute name="PROD_ID" value="CONN-13694" x="26.67" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="" x="26.67" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="2.54" y="21.59" rot="MR0"/>
 <element name="U$1" library="SparkX" package="SPARKX-SMALL" value="SPARKX-LOGO3" x="30.48" y="12.7" rot="MR90"/>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="25.4" y="19.05" smashed="yes" rot="R90">
@@ -1236,7 +1244,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X01_NO_SILK" value="" x="20.32" y="1.27"/>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="13.97" y="6.35">
-<attribute name="PROD_ID" value="RES-08272" x="13.97" y="6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="RES-00824" x="13.97" y="6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" value="JUMPER-SMT_2_NC_PASTE_NO-SILK" x="17.78" y="6.35" smashed="yes">
 <attribute name="NAME" x="16.764" y="6.35" size="0.6096" layer="21" font="vector" ratio="20" rot="SR90" align="bottom-center"/>
@@ -1247,19 +1255,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="IC-11285" x="15.875" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="24.13" y="6.35">
-<attribute name="PROD_ID" value="RES-08272" x="24.13" y="6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="RES-07857" x="24.13" y="6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" package="2X3_TEST_POINTS" value="AVR_SPI_PROG_3X2TESTPOINTS" x="15.875" y="19.05"/>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="6.35" y="19.05" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="6.35" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603" value="1k" x="1.27" y="19.05" rot="R270">
-<attribute name="PROD_ID" value="RES-08272" x="1.27" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="RES-07856" x="1.27" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="30.48" y="24.13" rot="MR0"/>
 <element name="JP3" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="3.81" y="1.27" rot="MR0"/>
 <element name="J5" library="SparkFun-Connectors" package="1X01_NO_SILK" value="" x="22.86" y="1.27"/>
-<element name="J7" library="SparkFun-Connectors" package="1X09_NO_SILK" value="" x="6.35" y="24.13"/>
+<element name="J7" library="SparkFun-Connectors" package="1X09_NO_SILK" value="Keypad" x="6.35" y="24.13"/>
 </elements>
 <signals>
 <signal name="3.3V">

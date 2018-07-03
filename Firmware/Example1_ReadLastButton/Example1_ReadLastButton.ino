@@ -16,7 +16,7 @@
 
 #include <Wire.h>
 
-byte keypadAddress = 75; //75 (0x4B) is default, 74 if jumper is opened
+byte keypadAddress = 75; //75 (0x4B) is default, 74 if jumper is closed
 
 void setup(void)
 {

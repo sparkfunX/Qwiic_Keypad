@@ -8623,19 +8623,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="170.434" y="11.43" size="2.54" layer="94">Kevin Kuwata</text>
-<text x="237.744" y="7.366" size="2.54" layer="94">X11</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">X02</text>
 <text x="40.64" y="83.82" size="3.81" layer="97" align="center">I C</text>
 <text x="39.878" y="85.852" size="2.54" layer="97" align="center">2</text>
-<wire x1="0" y1="91.44" x2="93.98" y2="91.44" width="0.2032" layer="97"/>
-<wire x1="93.98" y1="91.44" x2="172.72" y2="91.44" width="0.2032" layer="97"/>
-<wire x1="93.98" y1="91.44" x2="93.98" y2="0" width="0.2032" layer="97"/>
-<text x="187.198" y="86.36" size="1.778" layer="97">I2C Address Selection
-Closed Jumper (Default): 0x4B
-Open Jumper: 0x4A</text>
+<wire x1="0" y1="91.44" x2="93.98" y2="91.44" width="0.2032" layer="97" style="longdash"/>
+<wire x1="93.98" y1="91.44" x2="172.72" y2="91.44" width="0.2032" layer="97" style="longdash"/>
+<wire x1="93.98" y1="91.44" x2="93.98" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="187.198" y="73.66" size="1.778" layer="97">I2C Address Selection
+Open Jumper (Default): 0x4B
+Closed Jumper: 0x4A</text>
 <text x="128.778" y="77.724" size="1.778" layer="97">Power
 Indicator</text>
 <text x="111.76" y="170.18" size="1.27" layer="97" rot="R180">I2C Pull Up</text>
-<wire x1="172.72" y1="185.42" x2="172.72" y2="91.44" width="0.2032" layer="97"/>
+<wire x1="172.72" y1="185.42" x2="172.72" y2="91.44" width="0.2032" layer="97" style="longdash"/>
 <text x="124.46" y="157.48" size="1.778" layer="97" ratio="15">Arduino Pin:</text>
 <text x="132.08" y="154.94" size="1.778" layer="97" ratio="15">11</text>
 <text x="132.08" y="152.4" size="1.778" layer="97" ratio="15">8</text>

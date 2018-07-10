@@ -16,7 +16,7 @@
 
 #include <Wire.h>
 
-byte keypadAddress = 0x42; //75 (0x4B) is default, 74 if jumper is opened
+byte keypadAddress = 75; //75 (0x4B) is default, 74 if jumper is closed
 
 void setup(void)
 {
@@ -47,7 +47,7 @@ void loop(void)
   delay(25); //25 is good, more is better
 }
 
-//Get the latest button and time stamp from keypad
+//Get the latest button
 char readKeyPad()
 {
   Wire.requestFrom((uint8_t)keypadAddress, (uint8_t)1);

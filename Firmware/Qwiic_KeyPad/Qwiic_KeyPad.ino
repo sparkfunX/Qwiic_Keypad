@@ -37,7 +37,7 @@
 
 #define LOCATION_I2C_ADDRESS 0x01 //Location in EEPROM where the I2C address is stored
 #define I2C_ADDRESS_DEFAULT 75
-#define I2C_ADDRESS_NO_JUMPER 74
+#define I2C_ADDRESS_JUMPER 74
 
 #define COMMAND_CHANGE_ADDRESS 0xC7
 
@@ -78,7 +78,7 @@ Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
 void setup(void)
 {
-  pinMode(addr, INPUT);
+  pinMode(addr, INPUT_PULLUP);
   pinMode(interruptPin, OUTPUT); //Goes low when a button event is on the stack
 
   //Disable ADC
@@ -200,10 +200,10 @@ void startI2C()
 {
   Wire.end(); //Before we can change addresses we need to stop
   
-  if (digitalRead(addr) == HIGH) //Default is HIGH, the jumper is closed with paste in production
+  if (digitalRead(addr) == HIGH) //Default is HIGH, the jumper is open
     Wire.begin(setting_i2c_address); //Start I2C and answer calls using address from EEPROM
   else
-    Wire.begin(I2C_ADDRESS_NO_JUMPER); //Force address to I2C_ADDRESS_NO_JUMPER if user has opened the solder jumper
+    Wire.begin(I2C_ADDRESS_JUMPER); //Force address to I2C_ADDRESS_JUMPER if user has closed the solder jumper
 
   //The connections to the interrupts are severed when a Wire.begin occurs. So re-declare them.
   Wire.onReceive(receiveEvent);

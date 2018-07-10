@@ -16,7 +16,7 @@
 
 #include <Wire.h>
 
-#define QWIIC_KEYPAD_ADDRESS 75 //75 is default, 74 if jumper is opened
+#define QWIIC_KEYPAD_ADDRESS 75 //75 is default, 74 if jumper is closed
 
 char button = 0; //Button '0' to '9' and '*' and '#'
 unsigned long timeSincePress = 0; //Number of milliseconds since this button was pressed

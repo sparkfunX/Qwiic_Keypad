@@ -3,7 +3,7 @@ SparkFun Qwiic KeyPad
 
 ![SparkFun Qwiic Keypad](https://cdn.sparkfun.com//assets/parts/1/2/8/5/4/Qwiic-Keypad-Example.jpg)
 
-[*SparkX Qwiic Keypad (SPX-14660)*](https://www.sparkfun.com/products/14660)
+[*SparkX Qwiic Keypad (SPX-14836)*](https://www.sparkfun.com/products/14836)
 
 Keypads are very handy input devices. And there are many great libraries written to interface to keypads! But who wants to tie up 7 GPIOs, have a handful of pull up resistors, and write firmware that scans the keys taking up valuable megahertz? Let’s make it easier! The Qwiic Keypad uses very simple I2C commands to read what button was pressed. It also implements a stack with time stamps for each key press so you don’t need to constantly poll the keypad. Qwiic Keypad even has a configurable I2C address so you can have multiple keypads on the same bus!
 

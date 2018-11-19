@@ -3155,7 +3155,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="2">
 <contactref element="U3" pad="12"/>
 <contactref element="J8" pad="2"/>
-<wire x1="13.335" y1="9.9" x2="13.335" y2="9.398" width="0.1524" layer="1"/>
 <wire x1="13.335" y1="9.9" x2="13.335" y2="8.35000625" width="0.1524" layer="1"/>
 <wire x1="13.335" y1="8.35000625" x2="17.78" y2="3.90500625" width="0.1524" layer="1"/>
 <wire x1="17.78" y1="3.90500625" x2="17.78" y2="1.27" width="0.1524" layer="1"/>

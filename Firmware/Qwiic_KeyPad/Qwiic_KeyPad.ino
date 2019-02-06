@@ -59,7 +59,7 @@ volatile byte oldestPress = 0;
 const byte addr = 9; //Addr jumper
 const byte interruptPin = 7; //Pin goes low when a button event is available
 
-#include <Keypad.h>
+#include <Keypad.h>   // by Mark Stanley and Alexander Brevig 
 const byte ROWS = 4;
 const byte COLS = 3;
 char keys[ROWS][COLS] = {
